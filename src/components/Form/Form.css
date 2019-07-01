@@ -1,0 +1,41 @@
+.Heading {
+  font-size: 21px;
+  color: #777;
+}
+
+.Form {
+  background-color: #F9F9F9;
+  padding: 5px 30px 30px 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 7px 14px rgba(50,50,93,.05), 0 3px 6px rgba(0,0,0,.05);
+  border: 1px solid #EBEBEB;
+}
+
+.Input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #EBEBEB;
+  font-size: 15px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.Input:focus, .Button:focus {
+  outline: none;
+}
+
+.Button {
+  width: 100%;
+  border-image: none;
+  border: none;
+  background-color: #777;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, sans-serif;
+}
